@@ -4,14 +4,14 @@
     "D:\\project\\learning\\c-sharp-to-become-junior-level\\project\\to-become-junior\\to-become-junior.csproj": {}
   },
   "projects": {
-    "D:\\project\\learning\\c-sharp-to-become-junior-level\\project\\to-become-junior\\to-become-junior.csproj": {
+    "D:\\project\\learning\\c-sharp-to-become-junior-level\\c-sharp-to-become-junior-level.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\project\\learning\\c-sharp-to-become-junior-level\\project\\to-become-junior\\to-become-junior.csproj",
-        "projectName": "to-become-junior",
-        "projectPath": "D:\\project\\learning\\c-sharp-to-become-junior-level\\project\\to-become-junior\\to-become-junior.csproj",
+        "projectUniqueName": "D:\\project\\learning\\c-sharp-to-become-junior-level\\c-sharp-to-become-junior-level.csproj",
+        "projectName": "c-sharp-to-become-junior-level",
+        "projectPath": "D:\\project\\learning\\c-sharp-to-become-junior-level\\c-sharp-to-become-junior-level.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\project\\learning\\c-sharp-to-become-junior-level\\project\\to-become-junior\\obj\\",
+        "outputPath": "D:\\project\\learning\\c-sharp-to-become-junior-level\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,79 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\project\\learning\\c-sharp-to-become-junior-level\\project\\to-become-junior\\to-become-junior.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\project\\learning\\c-sharp-to-become-junior-level\\project\\to-become-junior\\to-become-junior.csproj",
+        "projectName": "to-become-junior",
+        "projectPath": "D:\\project\\learning\\c-sharp-to-become-junior-level\\project\\to-become-junior\\to-become-junior.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\project\\learning\\c-sharp-to-become-junior-level\\project\\to-become-junior\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\project\\learning\\c-sharp-to-become-junior-level\\c-sharp-to-become-junior-level.csproj": {
+                "projectPath": "D:\\project\\learning\\c-sharp-to-become-junior-level\\c-sharp-to-become-junior-level.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
