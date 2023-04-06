@@ -1,0 +1,6 @@
+D:\project\learning\c-sharp-to-become-junior-level\obj\Debug\net5.0\c-sharp-to-become-junior-level.csproj.AssemblyReference.cache
+D:\project\learning\c-sharp-to-become-junior-level\obj\Debug\net5.0\c-sharp-to-become-junior-level.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\learning\c-sharp-to-become-junior-level\obj\Debug\net5.0\c-sharp-to-become-junior-level.AssemblyInfoInputs.cache
+D:\project\learning\c-sharp-to-become-junior-level\obj\Debug\net5.0\c-sharp-to-become-junior-level.AssemblyInfo.cs
+D:\project\learning\c-sharp-to-become-junior-level\obj\Debug\net5.0\c-sharp-to-become-junior-level.csproj.CoreCompileInputs.cache
+D:\project\learning\c-sharp-to-become-junior-level\obj\Debug\net5.0\c-sharp-to-become-junior-level.MvcApplicationPartsAssemblyInfo.cache

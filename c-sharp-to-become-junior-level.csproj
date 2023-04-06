@@ -3,6 +3,16 @@
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
         <RootNamespace>c_sharp_to_become_junior_level</RootNamespace>
+        <GenerateProgramFile>false</GenerateProgramFile>
+        <StartupObject>c_sharp_to_become_junior_level.Program</StartupObject>
     </PropertyGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="project\to-become-junior\bin\Debug\net5.0\appsettings.Development.json" />
+      <_ContentIncludedByDefault Remove="project\to-become-junior\bin\Debug\net5.0\appsettings.json" />
+      <_ContentIncludedByDefault Remove="project\to-become-junior\bin\Debug\net5.0\to-become-junior.deps.json" />
+      <_ContentIncludedByDefault Remove="project\to-become-junior\bin\Debug\net5.0\to-become-junior.runtimeconfig.dev.json" />
+      <_ContentIncludedByDefault Remove="project\to-become-junior\bin\Debug\net5.0\to-become-junior.runtimeconfig.json" />
+    </ItemGroup>
 
 </Project>

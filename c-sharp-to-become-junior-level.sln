@@ -6,6 +6,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "to-become-junior", "project\to-become-junior\to-become-junior.csproj", "{79F84FA5-DAE6-4E19-B8ED-B38EC2B69BD8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "to-become-middle", "project\to-become-middle\to-become-middle.csproj", "{8F3120FA-4260-45FC-9D19-B98EB9E2D9E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "to-become-senior", "project\to-become-senior\to-become-senior.csproj", "{47FB6F64-5780-4CDE-B5EE-F074823173F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +24,18 @@ Global
 		{79F84FA5-DAE6-4E19-B8ED-B38EC2B69BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79F84FA5-DAE6-4E19-B8ED-B38EC2B69BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79F84FA5-DAE6-4E19-B8ED-B38EC2B69BD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F3120FA-4260-45FC-9D19-B98EB9E2D9E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F3120FA-4260-45FC-9D19-B98EB9E2D9E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F3120FA-4260-45FC-9D19-B98EB9E2D9E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F3120FA-4260-45FC-9D19-B98EB9E2D9E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47FB6F64-5780-4CDE-B5EE-F074823173F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47FB6F64-5780-4CDE-B5EE-F074823173F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47FB6F64-5780-4CDE-B5EE-F074823173F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47FB6F64-5780-4CDE-B5EE-F074823173F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{79F84FA5-DAE6-4E19-B8ED-B38EC2B69BD8} = {2D9B8557-BA2D-418F-8BC4-362691EB094A}
+		{8F3120FA-4260-45FC-9D19-B98EB9E2D9E4} = {2D9B8557-BA2D-418F-8BC4-362691EB094A}
+		{47FB6F64-5780-4CDE-B5EE-F074823173F5} = {2D9B8557-BA2D-418F-8BC4-362691EB094A}
 	EndGlobalSection
 EndGlobal
