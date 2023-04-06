@@ -4,3 +4,5 @@ D:\project\learning\c-sharp-to-become-junior-level\obj\Debug\net5.0\c-sharp-to-b
 D:\project\learning\c-sharp-to-become-junior-level\obj\Debug\net5.0\c-sharp-to-become-junior-level.AssemblyInfo.cs
 D:\project\learning\c-sharp-to-become-junior-level\obj\Debug\net5.0\c-sharp-to-become-junior-level.csproj.CoreCompileInputs.cache
 D:\project\learning\c-sharp-to-become-junior-level\obj\Debug\net5.0\c-sharp-to-become-junior-level.MvcApplicationPartsAssemblyInfo.cache
+D:\project\learning\c-sharp-to-become-junior-level\obj\Debug\net5.0\c-sharp-to-become-junior-level.RazorAssemblyInfo.cache
+D:\project\learning\c-sharp-to-become-junior-level\obj\Debug\net5.0\c-sharp-to-become-junior-level.RazorAssemblyInfo.cs

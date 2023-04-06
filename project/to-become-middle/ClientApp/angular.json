@@ -137,5 +137,8 @@
       }
     }
   },
-  "defaultProject": "to_become_middle"
+  "defaultProject": "to_become_middle",
+  "cli": {
+    "analytics": false
+  }
 }

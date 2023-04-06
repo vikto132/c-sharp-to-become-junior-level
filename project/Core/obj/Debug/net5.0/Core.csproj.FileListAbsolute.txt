@@ -1,0 +1,16 @@
+D:\project\learning\c-sharp-to-become-junior-level\project\Core\bin\Debug\net5.0\Core.exe
+D:\project\learning\c-sharp-to-become-junior-level\project\Core\bin\Debug\net5.0\Core.deps.json
+D:\project\learning\c-sharp-to-become-junior-level\project\Core\bin\Debug\net5.0\Core.runtimeconfig.json
+D:\project\learning\c-sharp-to-become-junior-level\project\Core\bin\Debug\net5.0\Core.runtimeconfig.dev.json
+D:\project\learning\c-sharp-to-become-junior-level\project\Core\bin\Debug\net5.0\Core.dll
+D:\project\learning\c-sharp-to-become-junior-level\project\Core\bin\Debug\net5.0\ref\Core.dll
+D:\project\learning\c-sharp-to-become-junior-level\project\Core\bin\Debug\net5.0\Core.pdb
+D:\project\learning\c-sharp-to-become-junior-level\project\Core\obj\Debug\net5.0\Core.csproj.AssemblyReference.cache
+D:\project\learning\c-sharp-to-become-junior-level\project\Core\obj\Debug\net5.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\learning\c-sharp-to-become-junior-level\project\Core\obj\Debug\net5.0\Core.AssemblyInfoInputs.cache
+D:\project\learning\c-sharp-to-become-junior-level\project\Core\obj\Debug\net5.0\Core.AssemblyInfo.cs
+D:\project\learning\c-sharp-to-become-junior-level\project\Core\obj\Debug\net5.0\Core.csproj.CoreCompileInputs.cache
+D:\project\learning\c-sharp-to-become-junior-level\project\Core\obj\Debug\net5.0\Core.dll
+D:\project\learning\c-sharp-to-become-junior-level\project\Core\obj\Debug\net5.0\ref\Core.dll
+D:\project\learning\c-sharp-to-become-junior-level\project\Core\obj\Debug\net5.0\Core.pdb
+D:\project\learning\c-sharp-to-become-junior-level\project\Core\obj\Debug\net5.0\Core.genruntimeconfig.cache
