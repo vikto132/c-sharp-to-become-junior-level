@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c-sharp-to-become-junior-level", "c-sharp-to-become-junior-level.csproj", "{F524ACD1-6BCC-47F9-B26B-38E43C2DA358}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{2D9B8557-BA2D-418F-8BC4-362691EB094A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "to-become-junior", "project\to-become-junior\to-become-junior.csproj", "{79F84FA5-DAE6-4E19-B8ED-B38EC2B69BD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F524ACD1-6BCC-47F9-B26B-38E43C2DA358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F524ACD1-6BCC-47F9-B26B-38E43C2DA358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F524ACD1-6BCC-47F9-B26B-38E43C2DA358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F524ACD1-6BCC-47F9-B26B-38E43C2DA358}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79F84FA5-DAE6-4E19-B8ED-B38EC2B69BD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79F84FA5-DAE6-4E19-B8ED-B38EC2B69BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79F84FA5-DAE6-4E19-B8ED-B38EC2B69BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79F84FA5-DAE6-4E19-B8ED-B38EC2B69BD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{79F84FA5-DAE6-4E19-B8ED-B38EC2B69BD8} = {2D9B8557-BA2D-418F-8BC4-362691EB094A}
+	EndGlobalSection
+EndGlobal
