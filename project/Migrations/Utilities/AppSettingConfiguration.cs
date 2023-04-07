@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.Extensions.Configuration;
 
-namespace Migration.Utilities;
+namespace Migrations.Utilities;
 
 public static class AppSettingConfiguration
 {

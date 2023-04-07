@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Core.Configuration;
 using Core.Data;
 using Core.Extension;
+using Microsoft.AspNetCore.Authentication.Certificate;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -38,6 +39,9 @@ namespace to_become_junior
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "to_become_junior", Version = "v1" });
             });
+            services.AddAuthentication(
+                    CertificateAuthenticationDefaults.AuthenticationScheme)
+                .AddCertificate();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

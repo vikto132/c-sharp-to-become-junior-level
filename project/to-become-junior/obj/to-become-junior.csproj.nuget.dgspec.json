@@ -4,72 +4,6 @@
     "C:\\work\\learn-c#\\c-sharp-to-become-junior-level\\project\\to-become-junior\\to-become-junior.csproj": {}
   },
   "projects": {
-    "C:\\work\\learn-c#\\c-sharp-to-become-junior-level\\c-sharp-to-become-junior-level.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\work\\learn-c#\\c-sharp-to-become-junior-level\\c-sharp-to-become-junior-level.csproj",
-        "projectName": "c-sharp-to-become-junior-level",
-        "projectPath": "C:\\work\\learn-c#\\c-sharp-to-become-junior-level\\c-sharp-to-become-junior-level.csproj",
-        "packagesPath": "C:\\Users\\tunglq\\.nuget\\packages\\",
-        "outputPath": "C:\\work\\learn-c#\\c-sharp-to-become-junior-level\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\tunglq\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[6.0.15, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[6.0.15, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.407\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
     "C:\\work\\learn-c#\\c-sharp-to-become-junior-level\\project\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -104,6 +38,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "EFCore.BulkExtensions": {
+              "target": "Package",
+              "version": "[6.7.0, )"
+            },
             "EntityFramework": {
               "target": "Package",
               "version": "[6.4.4, )"
@@ -124,15 +62,15 @@
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.Extensions.Configuration.Binder": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -177,9 +115,6 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\work\\learn-c#\\c-sharp-to-become-junior-level\\c-sharp-to-become-junior-level.csproj": {
-                "projectPath": "C:\\work\\learn-c#\\c-sharp-to-become-junior-level\\c-sharp-to-become-junior-level.csproj"
-              },
               "C:\\work\\learn-c#\\c-sharp-to-become-junior-level\\project\\Core\\Core.csproj": {
                 "projectPath": "C:\\work\\learn-c#\\c-sharp-to-become-junior-level\\project\\Core\\Core.csproj"
               }
@@ -199,6 +134,10 @@
             "EntityFramework": {
               "target": "Package",
               "version": "[6.4.4, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Certificate": {
+              "target": "Package",
+              "version": "[6.0.15, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",

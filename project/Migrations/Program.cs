@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Migration.Utilities;
+using Migrations.Utilities;
 
 namespace Migrations
 {
@@ -17,7 +17,6 @@ namespace Migrations
         {
             try
             {
-                Console.WriteLine("Hello World!");
                 var serviceProvider = SetupServiceProvider();
                 var db = serviceProvider.GetService<JuniorDbContext>();
                 await Migrate(db);

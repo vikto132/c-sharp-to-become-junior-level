@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Core.Data.Junior
@@ -13,5 +14,11 @@ namespace Core.Data.Junior
         public string UserName { get; set; }
         
         public string Password { get; set; }
+        
+        public string Email { get; set; }
+        
+        public string Phone { get; set; }
+        
+        public ICollection<Role> Roles { get; set; }
     }
 }
