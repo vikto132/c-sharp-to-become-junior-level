@@ -1,0 +1,8 @@
+C:\work\learn-c#\c-sharp-to-become-junior-level\obj\Debug\net6.0\c-sharp-to-become-junior-level.csproj.AssemblyReference.cache
+C:\work\learn-c#\c-sharp-to-become-junior-level\obj\Debug\net6.0\c-sharp-to-become-junior-level.GeneratedMSBuildEditorConfig.editorconfig
+C:\work\learn-c#\c-sharp-to-become-junior-level\obj\Debug\net6.0\c-sharp-to-become-junior-level.AssemblyInfoInputs.cache
+C:\work\learn-c#\c-sharp-to-become-junior-level\obj\Debug\net6.0\c-sharp-to-become-junior-level.AssemblyInfo.cs
+C:\work\learn-c#\c-sharp-to-become-junior-level\obj\Debug\net6.0\c-sharp-to-become-junior-level.csproj.CoreCompileInputs.cache
+C:\work\learn-c#\c-sharp-to-become-junior-level\obj\Debug\net6.0\c-sharp-to-become-junior-level.MvcApplicationPartsAssemblyInfo.cache
+C:\work\learn-c#\c-sharp-to-become-junior-level\obj\Debug\net6.0\c-sharp-to-become-junior-level.RazorAssemblyInfo.cache
+C:\work\learn-c#\c-sharp-to-become-junior-level\obj\Debug\net6.0\c-sharp-to-become-junior-level.RazorAssemblyInfo.cs

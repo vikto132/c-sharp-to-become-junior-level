@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "D:\\project\\learning\\c-sharp-to-become-junior-level\\project\\Core\\Core.csproj": {}
+    "C:\\work\\learn-c#\\c-sharp-to-become-junior-level\\project\\Core\\Core.csproj": {}
   },
   "projects": {
-    "D:\\project\\learning\\c-sharp-to-become-junior-level\\project\\Core\\Core.csproj": {
+    "C:\\work\\learn-c#\\c-sharp-to-become-junior-level\\project\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\project\\learning\\c-sharp-to-become-junior-level\\project\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\work\\learn-c#\\c-sharp-to-become-junior-level\\project\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\project\\learning\\c-sharp-to-become-junior-level\\project\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\project\\learning\\c-sharp-to-become-junior-level\\project\\Core\\obj\\",
+        "projectPath": "C:\\work\\learn-c#\\c-sharp-to-become-junior-level\\project\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\tunglq\\.nuget\\packages\\",
+        "outputPath": "C:\\work\\learn-c#\\c-sharp-to-become-junior-level\\project\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\tunglq\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -35,8 +35,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "EntityFramework": {
               "target": "Package",
@@ -44,29 +44,29 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[6.0.15, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[6.0.15, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[6.0.15, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[6.0.1, )"
+              "version": "[7.0.0, )"
             },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[7.0.0, )"
             },
             "Microsoft.Extensions.Configuration.Binder": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[7.0.4, )"
             }
           },
           "imports": [
@@ -75,7 +75,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -84,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     }

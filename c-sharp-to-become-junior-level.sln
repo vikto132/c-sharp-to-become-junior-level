@@ -1,7 +1,5 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c-sharp-to-become-junior-level", "c-sharp-to-become-junior-level.csproj", "{F524ACD1-6BCC-47F9-B26B-38E43C2DA358}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{2D9B8557-BA2D-418F-8BC4-362691EB094A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "to-become-junior", "project\to-become-junior\to-become-junior.csproj", "{79F84FA5-DAE6-4E19-B8ED-B38EC2B69BD8}"
@@ -16,7 +14,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "project\Core\Core.c
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{8AD1A224-0CC4-4C9F-888B-E05D7D45C88F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Migration", "project\Migration\Migration.csproj", "{D7C3894F-CEF0-4C30-9237-A91040FCD061}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Migrations", "project\Migrations\Migrations.csproj", "{D7C3894F-CEF0-4C30-9237-A91040FCD061}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

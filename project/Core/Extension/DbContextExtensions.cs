@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using DbContext = Microsoft.EntityFrameworkCore.DbContext;
 
 namespace Core.Extension
 {
