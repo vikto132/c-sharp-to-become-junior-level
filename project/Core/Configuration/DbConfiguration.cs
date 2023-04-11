@@ -2,6 +2,6 @@
 {
     public class DbConfiguration
     {
-        public string Connection { get; set; }
+        public string Junior { get; set; }
     }
 }

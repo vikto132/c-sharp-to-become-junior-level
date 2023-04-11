@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Threading.Tasks;
+using Core.Exceptions;
+using Core.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -21,6 +24,26 @@ namespace Core.Extension
             services.AddSingleton(options);
             services.AddScoped<TDbContext>();
             return services;
+        }
+        
+        public static async Task<TEntity> GetByIdOr404Async<TEntity>(this DbContext context, long id,
+            bool raiseException = true, params string[] includeNavigationPaths)
+            where TEntity : class, IHasId
+        {
+            var queryable = context.Set<TEntity>().AsQueryable();
+            foreach (var includeNavigationPath in includeNavigationPaths)
+            {
+                queryable = queryable.Include(includeNavigationPath);
+            }
+
+            var entity = await queryable.SingleOrDefaultAsync(x => x.Id == id);
+            if (raiseException && entity == null)
+            {
+                throw new NotFoundException(
+                    $"The {typeof(TEntity).GetClassDescription()} with id '{id}' cannot be found.");
+            }
+
+            return entity;
         }
     }
 }

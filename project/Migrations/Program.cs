@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using Core.Configuration;
 using Core.Data;
+using Core.Exceptions;
 using Core.Extension;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
@@ -13,13 +15,17 @@ namespace Migrations
 {
     class Program
     {
-        static async Task Main(string[] args)
+        static void Main(string[] args)
         {
             try
             {
                 var serviceProvider = SetupServiceProvider();
-                var db = serviceProvider.GetService<JuniorDbContext>();
-                await Migrate(db);
+                var container = serviceProvider.GetRequiredService<DbContextContainer>();
+                var tasks = new List<Task>()
+                {
+                    Migrate(container.Junior)
+                };
+                Task.WaitAll(tasks.ToArray());
                 Environment.Exit(0);
             }
             catch (Exception e)
@@ -50,7 +56,7 @@ namespace Migrations
                 .Build();
             AppSettingConfiguration.Inject(configuration);
             var dbConnectionStrings = configuration.GetSection<DbConfiguration>("DbConfigurations");
-            return serviceCollection.AddDbContext<JuniorDbContext>(dbConnectionStrings.Connection).BuildServiceProvider();
+            return serviceCollection.AddDbContexts(dbConnectionStrings).BuildServiceProvider();
         }
     }
     

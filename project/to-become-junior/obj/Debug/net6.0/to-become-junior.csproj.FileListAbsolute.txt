@@ -61,9 +61,6 @@ C:\work\learn-c#\c-sharp-to-become-junior-level\project\to-become-junior\bin\Deb
 C:\work\learn-c#\c-sharp-to-become-junior-level\project\to-become-junior\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\work\learn-c#\c-sharp-to-become-junior-level\project\to-become-junior\bin\Debug\net6.0\Core.dll
 C:\work\learn-c#\c-sharp-to-become-junior-level\project\to-become-junior\bin\Debug\net6.0\Core.pdb
-C:\work\learn-c#\c-sharp-to-become-junior-level\project\to-become-junior\obj\Debug\net6.0\staticwebassets.build.json
-C:\work\learn-c#\c-sharp-to-become-junior-level\project\to-become-junior\obj\Debug\net6.0\staticwebassets.development.json
-C:\work\learn-c#\c-sharp-to-become-junior-level\project\to-become-junior\obj\Debug\net6.0\scopedcss\bundle\to-become-junior.styles.css
 C:\work\learn-c#\c-sharp-to-become-junior-level\project\to-become-junior\obj\Debug\net6.0\to-become-junior.csproj.CopyComplete
 C:\work\learn-c#\c-sharp-to-become-junior-level\project\to-become-junior\obj\Debug\net6.0\to-become-junior.dll
 C:\work\learn-c#\c-sharp-to-become-junior-level\project\to-become-junior\obj\Debug\net6.0\refint\to-become-junior.dll
@@ -86,3 +83,13 @@ C:\work\learn-c#\c-sharp-to-become-junior-level\project\to-become-junior\bin\Deb
 C:\work\learn-c#\c-sharp-to-become-junior-level\project\to-become-junior\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\work\learn-c#\c-sharp-to-become-junior-level\project\to-become-junior\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\work\learn-c#\c-sharp-to-become-junior-level\project\to-become-junior\bin\Debug\net6.0\SQLitePCLRaw.core.dll
+C:\work\learn-c#\c-sharp-to-become-junior-level\project\to-become-junior\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\work\learn-c#\c-sharp-to-become-junior-level\project\to-become-junior\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\work\learn-c#\c-sharp-to-become-junior-level\project\to-become-junior\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\work\learn-c#\c-sharp-to-become-junior-level\project\to-become-junior\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+C:\work\learn-c#\c-sharp-to-become-junior-level\project\to-become-junior\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\work\learn-c#\c-sharp-to-become-junior-level\project\to-become-junior\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+C:\work\learn-c#\c-sharp-to-become-junior-level\project\to-become-junior\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\work\learn-c#\c-sharp-to-become-junior-level\project\to-become-junior\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\work\learn-c#\c-sharp-to-become-junior-level\project\to-become-junior\obj\Debug\net6.0\to-become-junior.RazorAssemblyInfo.cache
+C:\work\learn-c#\c-sharp-to-become-junior-level\project\to-become-junior\obj\Debug\net6.0\to-become-junior.RazorAssemblyInfo.cs

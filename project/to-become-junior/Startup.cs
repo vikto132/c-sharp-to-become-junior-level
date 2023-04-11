@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Core.Configuration;
 using Core.Data;
+using Core.Exceptions;
 using Core.Extension;
 using Microsoft.AspNetCore.Authentication.Certificate;
 using Microsoft.AspNetCore.Builder;
@@ -33,7 +34,9 @@ namespace to_become_junior
             services.Configure<DbConfiguration>(Configuration.GetSection("DbConfigurations"));
 
             var dbConfigurations = Configuration.GetSection<DbConfiguration>("DbConfigurations");
-            services.AddDbContext<JuniorDbContext>(dbConfigurations.Connection);
+
+            ConfigureDbContexts(services, dbConfigurations);
+
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -61,6 +64,12 @@ namespace to_become_junior
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
+        }
+
+        protected virtual IServiceCollection ConfigureDbContexts(IServiceCollection services,
+            DbConfiguration databaseOptions)
+        {
+            return services.AddDbContexts(databaseOptions);
         }
     }
 }
